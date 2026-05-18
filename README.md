@@ -112,16 +112,24 @@ pytest tests/ --html=report.html --self-contained-html
 
 ## 🧪 Test Cases
 
-### Manual Test Cases (See test_cases.xlsx)
+### Manual Test Cases
 
-| Test Scenario | Pre-conditions | Test Steps | Test Data | Expected Result |
-|---|---|---|---|---|
-| TC-001: Navigate to Admin Module | User logged in as Admin | Click Admin tab in sidebar | N/A | Admin module loads successfully |
-| TC-002: Add New User | Admin module open | Click Add button, fill user details, click Save | Username: AccuKnox_Tester_01, Password: Password@123 | Success message displayed |
-| TC-003: Search User | Admin module open, users exist | Enter username in search box, click Search | Username: AccuKnox_Tester_01 | User appears in results table |
-| TC-004: Edit User Details | User exists in system | Click Edit, modify details, click Save | Updated fields | Changes saved successfully |
-| TC-005: Validate Updated Details | User edited | Search and open user record | N/A | All updated details are visible |
-| TC-006: Delete User | User exists in system | Click Delete, confirm deletion | N/A | User removed from system |
+Refer to **test_cases.xlsx** for comprehensive manual test case documentation with the following columns:
+- Test Scenario
+- Pre-conditions
+- Test Steps
+- Test Data
+- Expected Result
+- Actual Result (optional)
+- Status (optional)
+
+**Key Manual Test Scenarios:**
+1. Navigate to Admin Module
+2. Add New User
+3. Search User
+4. Edit User Details
+5. Validate Updated Details
+6. Delete User
 
 ### Automated Test Cases
 
